@@ -1,21 +1,21 @@
 # myos
-AI agent in linux enviroment
+AI agent in Linux environment
 
 # Complete Step-by-Step Guide to Install MyOS on Linux
 
 ## Step 1: Transfer the Project to Linux
 
-You have the project on your Windows machine at `C:\Users\mitch\myos`. Here are a few ways to get it onto Linux:
+You have the project on your Windows machine at `C:\Users\user\myos`. Here are a few ways to get it onto Linux:
 
 ### Option A: Using SCP (if you have SSH access to your Linux machine)
 
 Open PowerShell on Windows and run:
 ```powershell
-scp -r C:\Users\mitch\myos username@your-linux-ip:~/
+scp -r C:\Users\user\myos username@your-linux-ip:~/
 ```
 
 ### Option B: Using a USB drive
-1. Copy the `C:\Users\mitch\myos` folder to a USB drive
+1. Copy the `C:\Users\user\myos` folder to a USB drive
 2. Plug it into your Linux machine
 3. Copy it to your home directory:
    ```bash
